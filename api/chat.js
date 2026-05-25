@@ -121,6 +121,40 @@ module.exports = async (req, res) => {
       return res.status(400).json({ error: { message: "Modelo no configurado: " + userModel, type: "invalid_request_error" }});
     }
     
+    // Modelo4: Si la imagen viene en base64, subir a upload y obtener URL
+    if (userModel === 'modelo4' && body.messages) {
+      for (let i = 0; i < body.messages.length; i++) {
+        const msg = body.messages[i];
+        if (msg.content && Array.isArray(msg.content)) {
+          for (let j = 0; j < msg.content.length; j++) {
+            const part = msg.content[j];
+            if (part.type === 'image_url' && part.image_url && part.image_url.url) {
+              let imgUrl = part.image_url.url;
+              // Si es base64, subir a upload
+              if (imgUrl.startsWith('data:image')) {
+                try {
+                  const base64Data = imgUrl.split(',')[1];
+                  const uploadRes = await fetch(`${req.protocol || 'https'}://${req.headers.host}/api/upload`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ base64: base64Data })
+                  });
+                  const uploadData = await uploadRes.json();
+                  if (uploadData.url) {
+                    imgUrl = uploadData.url;
+                  }
+                } catch(e) {
+                  console.log('Error subiendo imagen:', e.message);
+                }
+              }
+              // Actualizar la URL en el mensaje
+              part.image_url.url = imgUrl;
+            }
+          }
+        }
+      }
+    }
+    
     body.model = cfg.model;
     
     if (cfg.system_prompt) {
