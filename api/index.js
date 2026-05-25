@@ -285,26 +285,26 @@ tr:hover td{
   
   <div class="model-card">
     <h4>🌟 modelo1</h4>
-    <p><span class="tag tag-kilo">KILO</span> <span class="tag tag-free">GRATIS</span></p>
-    <p>Power-Up sorpresa gratis. Los modelos pueden variar por eso son gratis. Para conversaciones y misiones normales.</p>
+    <p><span class="tag tag-free">GRATIS</span></p>
+    <p>Modelo especializado en agente.</p>
   </div>
   
   <div class="model-card">
     <h4>🌙 modelo2</h4>
-    <p><span class="tag tag-kilo">KILO</span> <span class="tag tag-free">GRATIS</span></p>
-    <p>Power-Up sorpresa gratis. Los modelos pueden variar por eso son gratis. Perfecto para misiones de codigo y tareas ninja.</p>
+    <p><span class="tag tag-free">GRATIS</span></p>
+    <p>Perfecto para misiones de codigo y tareas ninja.</p>
   </div>
   
   <div class="model-card">
     <h4>🚀 modelo3</h4>
-    <p><span class="tag tag-kilo">KILO</span> <span class="tag tag-free">GRATIS</span></p>
-    <p>Power-Up sorpresa gratis. Los modelos pueden variar por eso son gratis. El power-up mas poderoso para razonamiento epico!</p>
+    <p><span class="tag tag-free">GRATIS</span></p>
+    <p>El power-up mas poderoso para razonamiento epico!</p>
   </div>
   
   <div class="model-card">
     <h4>👁️ modelo4</h4>
-    <p><span class="tag tag-zydit">ZYDIT</span> <span class="tag tag-vision">VISION</span> <span class="tag tag-free">GRATIS</span></p>
-    <p>Power-Up sorpresa gratis para vision. Los modelos pueden variar por eso son gratis. Analiza imagenes como el mario con la capa roja!</p>
+    <p><span class="tag tag-vision">VISION</span> <span class="tag tag-free">GRATIS</span></p>
+    <p>Modelo de vision para analizar imagenes.</p>
   </div>
 </div>
 
