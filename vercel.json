@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "framework": "none",
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
   "routes": [
     { "src": "/api/admin-panel", "dest": "/api/admin-panel.js" },
     { "src": "/api/admin-auth", "dest": "/api/admin-auth.js" },
