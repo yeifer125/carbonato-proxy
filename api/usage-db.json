@@ -1,9 +1,65 @@
 {
-  "usages": [],
+  "usages": [
+    {
+      "model": "modelo3",
+      "ip": "190.211.125.254",
+      "tokens": 0,
+      "timestamp": "2026-05-25T22:35:05.831Z"
+    },
+    {
+      "model": "modelo3",
+      "ip": "190.211.125.254",
+      "tokens": 0,
+      "timestamp": "2026-05-25T22:35:24.777Z"
+    },
+    {
+      "model": "modelo3",
+      "ip": "190.211.125.254",
+      "tokens": 0,
+      "timestamp": "2026-05-25T22:36:51.104Z"
+    },
+    {
+      "model": "modelo3",
+      "ip": "190.211.125.254",
+      "tokens": 0,
+      "timestamp": "2026-05-25T22:37:13.003Z"
+    },
+    {
+      "model": "modelo3",
+      "ip": "190.211.125.254",
+      "tokens": 0,
+      "timestamp": "2026-05-25T22:38:06.021Z"
+    },
+    {
+      "model": "modelo5",
+      "ip": "190.211.125.254",
+      "tokens": 1,
+      "timestamp": "2026-05-25T22:38:39.874Z"
+    },
+    {
+      "model": "modelo3",
+      "ip": "190.211.125.254",
+      "tokens": 0,
+      "timestamp": "2026-05-25T22:38:52.018Z"
+    }
+  ],
   "stats": {
-    "modelo1": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] },
-    "modelo2": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] },
-    "modelo3": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] },
-    "modelo4": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] }
-  }
+    "modelo3": {
+      "totalTokens": 0,
+      "totalRequests": 6,
+      "uniqueIPs": [
+        "190.211.125.254"
+      ]
+    },
+    "modelo5": {
+      "totalTokens": 1,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "190.211.125.254"
+      ]
+    }
+  },
+  "lastUpdated": "2026-05-25T22:38:52.018Z",
+  "lastModel": "modelo3",
+  "lastTokens": 0
 }
