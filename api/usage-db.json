@@ -1,0 +1,9 @@
+{
+  "usages": [],
+  "stats": {
+    "modelo1": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] },
+    "modelo2": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] },
+    "modelo3": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] },
+    "modelo4": { "totalTokens": 0, "totalRequests": 0, "uniqueIPs": [] }
+  }
+}
